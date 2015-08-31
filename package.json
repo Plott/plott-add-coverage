@@ -1,0 +1,31 @@
+{
+  "name": "plott-add-coverage",
+  "version": "0.0.1",
+  "description": "Adds coverage sample to database",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape tests/*.js",
+    "doc": "dox -r < index.js | doxme --readme > README.md"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Plott/plott-add-coverage.git"
+  },
+  "keywords": [
+    "plott"
+  ],
+  "author": "Corey White",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Plott/plott-add-coverage/issues"
+  },
+  "homepage": "https://github.com/Plott/plott-add-coverage#readme",
+  "devDependencies": {
+    "tape": "~3.5.0",
+    "dox": "^0.7.1",
+    "doxme": "^1.8.2"
+  }
+}
