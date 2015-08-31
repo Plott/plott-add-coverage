@@ -9,7 +9,7 @@ var FingerPrints = require('plott-mongo-models').FingerPrints,
  * @param {body} geojson dBm RSSI dBm
  * @return {geojson} Coveage point
  * @example
- * router.get('/', addCoverage);
+ * router.get('/', plott.addCoverage);
  *
  * //=route
  */
