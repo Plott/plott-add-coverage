@@ -1,0 +1,29 @@
+{
+  "type": "Feature",
+  "properties": {
+    "address": "222 Test St",
+    "floor": 1,
+    "room": "Office",
+    "wifi": [
+      {
+        "ssid": "Wifi Router",
+        "mac": "00:00:00:00:00:00",
+        "signal_level": -52,
+        "channel": 1,
+      },
+      {
+        "ssid": "AP1",
+        "mac": "01:01:0a:0y:j0:00",
+        "signal_level": -75,
+        "channel": 6,
+      }
+    ]
+  },
+  "geometry": {
+       "type":  "Point" ,
+       "coordinates": [
+          -99.49218749999999,
+          42.81152174509788
+        ]
+  }
+}
