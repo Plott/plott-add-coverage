@@ -1,10 +1,9 @@
-var wifiscanner = require('../'),
+var addCoverage = require('../'),
     test = require('tape');
 
-    test('scanner', function (t){
-      wifiscanner(function(err, data){
-        t.ok(Array.isArray(data));
-      });
+    test('addCoverage', function (t){
+
+    
 
       t.end();
     });
