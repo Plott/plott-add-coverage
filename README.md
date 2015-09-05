@@ -12,9 +12,9 @@ Adds coverage point to the FingerPrints collection
 
 ### Parameters
 
-| parameter | type | description  |
-| --------- | ---- | ------------ |
-| `geojson` | body | dBm RSSI dBm |
+| parameter | type | description        |
+| --------- | ---- | ------------------ |
+| `geojson` | body | FingerPrints Model |
 
 
 ### Example
