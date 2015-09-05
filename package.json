@@ -24,9 +24,10 @@
   },
   "homepage": "https://github.com/Plott/plott-add-coverage#readme",
   "devDependencies": {
-    "tape": "~3.5.0",
     "dox": "^0.7.1",
-    "doxme": "^1.8.2"
+    "doxme": "^1.8.2",
+    "request": "^2.61.0",
+    "tape": "~3.5.0"
   },
   "dependencies": {
     "plott-mongo-models": "0.0.2",
